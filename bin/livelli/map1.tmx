@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="64" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" source="map1.tsx"/>
+ <layer id="5" name="Background" width="64" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3OoREAMAgEsDeY7j8wC3DYCiLiU0kKAAAAAAAAAIDVG/w+AQAAAHc0bxPgQwAyAAA=
+  </data>
+ </layer>
+ <layer id="9" name="lifter" width="64" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3XsRGDMBBEUQmbEjA20Axg+m/J24BH5Hpv5kcXbXilAAAAAAAAwH9TLeWV5vROn7SkNW21fQcAAADuqfmjh/RIzzR29lfv2XukM33T1dl+AGj5Ad2j0i4AMgAA
+  </data>
+ </layer>
+ <layer id="6" name="Borders" width="64" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3RQQqAMBAEwQR/pz/TT5tLwHNggzA1sKjHsntr7fhcD/qe76mb/yF1/Pz8uePn588dPz9/7vj5+XPHz8+fO35+/tzx8/Pnjp+/0n+Ouxaeu1btv8c9C89d019//eumv/7666+//vrrr7/+f+yffC+IZiR2ADIAAA==
+  </data>
+ </layer>
+ <layer id="7" name="Door" width="64" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3TyRGDMBAFUcnoBCQFKDGWxFgCc58dgHDV9Kvq+/zDpCRJkiRJkiRJkiRJkiRJkv5d7lP6UEelf/ua9iY2z7RQDbh/ZfNGOx0B959svuimJ+D+PPD/1FEZ3r6mvYnNMy1UA+5f2bzRTkfA/SebL7rpCbg/j/w/dVTGt69pb2LzTAvVgPt/fQHlx+hNADIAAA==
+  </data>
+ </layer>
+ <layer id="8" name="Mover" width="64" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3OuRHAIAAEMfqvzWDzFMRV4JQAaWbzLQUAAAAAAIA/T6qppTd9qaeRZlrn1gAAAAAAgEtsI8hiwQAyAAA=
+  </data>
+ </layer>
+</map>

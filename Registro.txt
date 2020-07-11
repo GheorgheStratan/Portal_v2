@@ -1,0 +1,25 @@
+---------------10.07.2020-------------
+La classe Level è il core del gioco, tutti gli aggiornamenti avvengono del gioco avvengono tra esse.
+Al momento nel main ho collegato allo stato 0 (pagina dell'intro) la classe Level perché mi serve per fare dei controlli veloci. se vuoi accedere al menu cancella quella riga.
+
+!!!   LevelType rappresenta il format del file livelli che dovra avere le coordinate delle varie cose: posizione spawn, posizione lava, posizione elevator(quella rampa che si sposta sx-dx per capirci). Così ogni livello si può fare in maniera diversa.
+
+!!!   LevelReader Carica dentro un lista di tipo LevelType le varie informazioni del file livelli.txt. In questo modo dentro la Classe level
+hai le info di tutti i livelli e puoi caricare uno qualsisi tra quelli presenti.
+Quando si crea un nuovo oggetto, ad esempio la rampa che muove, si fa una sua classe mettendo dei metodi update e render che li chiami dentro Level risp. in update e render.
+
+!!!   PlayerType è la stessa cosa di LevelReader solo che dentro al momento ci sono solo i livelli sbloccati(mostro il livello max sbloccato)
+
+!!!   PlayerReader stessa cosa di LevelReader
+
+Quella classe ID per come ho implementato il codice a mio avviso non serve
+
+In main ho risolto il bug della musica. Risolto è un parolone, in realtà quello è un problema della libreria stessa che non viene più aggiornata.
+Basta togliere i // della funzione disableWarning().
+
+Poi un'altra cosa che al momento non sono riuscito a capire è questa: il nostro progetto va solo su windows perché il native library location di lwjgl è impostato solo per quello. Ho trovato una soluzione che si trova nel main, ma non sono riuscito ancora a farlo funzionare. Dico questo perché il prof usa mac os quindi sul suo PC così non funzionerà ed è meglio settarlo tramite codice.
+
+La classe Player al momento è implementata in questo modo temporaneamente finché non capirò come implementare le collisioni.
+
+N.B.: dato che la dimensione del codice se ogni volta che fai qualcosa di grosso aggiorna questo file cosi in maniera veloce abbiamo tutte le info.
+

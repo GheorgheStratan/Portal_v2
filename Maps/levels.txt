@@ -1,0 +1,3 @@
+Maps/livelli/map1.tmx,343,453,
+Maps/livelli/map2.tmx,435,342,
+Maps/livelli/map3.tmx,34,22
